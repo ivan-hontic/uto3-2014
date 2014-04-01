@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace uto3_2014
 {
-    public partial class Form1 : Form
+    public partial class FrmGlavna : Form
     {
-        public Form1()
+        public FrmGlavna()
         {
             InitializeComponent();
+        }
+
+        private void lblPovrsina_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
